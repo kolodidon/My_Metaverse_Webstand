@@ -16,16 +16,13 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          Abobus
+          Lorem
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
         >
-          <h1 className={styles.heroHeading}>Ma</h1>
-          <div className={`${styles.heroXText} ${styles.heroXLText}`} />
-          <div className={`${styles.heroXText} ${styles.heroXRText}`} />
-          <h1 className={styles.heroHeading}>imus</h1>
+          <h1 className={styles.heroHeading}>ipsum</h1>
         </motion.div>
       </div>
 
@@ -41,7 +38,7 @@ const Hero = () => (
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
 
-        <a href="#explore">
+        {/* <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
             <img
               src="/stamp.png"
@@ -49,7 +46,7 @@ const Hero = () => (
               className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
             />
           </div>
-        </a>
+        </a> */}
       </motion.div>
     </motion.div>
   </section>
