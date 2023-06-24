@@ -1,27 +1,48 @@
 export const exploreCards = [
-    {
-      id: 'world-1',
-      imgUrl: '/planet-01.png',
-      title: 'Lorem 1',
-    },
-    {
-      id: 'world-2',
-      imgUrl: '/planet-02.png',
-      title: 'Lorem 2',
-    },
-    {
-      id: 'world-3',
-      imgUrl: '/planet-03.png',
-      title: 'Lorem 3',
-    },
-    {
-      id: 'world-4',
-      imgUrl: '/planet-04.png',
-      title: 'Lorem 4',
-    },
-    {
-      id: 'world-5',
-      imgUrl: '/planet-05.png',
-      title: 'Lorem 5',
-    },
-  ];
+  {
+    id: 'exploreCard-1',
+    imgUrl: '/card-01.png',
+    title: 'Lorem 1',
+  },
+  {
+    id: 'exploreCard-2',
+    imgUrl: '/card-02.png',
+    title: 'Lorem 2',
+  },
+  {
+    id: 'exploreCard-3',
+    imgUrl: '/card-03.png',
+    title: 'Lorem 3',
+  },
+  {
+    id: 'exploreCard-4',
+    imgUrl: '/card-04.png',
+    title: 'Lorem 4',
+  },
+  {
+    id: 'exploreCard-5',
+    imgUrl: '/card-05.png',
+    title: 'Lorem 5',
+  },
+];
+
+export const startingFeatures = [
+  'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia adipisci quo est nulla',
+  'Suscipit cum aperiam molestias saepe voluptas libero! Facilis perferendis',
+  'Consectetur reprehenderit numquam quia tempora alias maxime, nemo quae autem a',
+];
+
+export const newFeatures = [
+  {
+    imgUrl: '/vrpano.svg',
+    title: 'Lorem ipsum, dolor',
+    subtitle:
+      'Consectetur reprehenderit numquam quia tempora alias maxime, nemo quae autem a',
+  },
+  {
+    imgUrl: '/headset.svg',
+    title: 'Lorem ipsum',
+    subtitle:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia adipisci quo est nulla',
+  },
+];
