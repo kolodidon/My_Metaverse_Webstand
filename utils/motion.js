@@ -21,8 +21,8 @@ export const navVariants = {
 
 export const slideIn = (direction, type, delay, duration) => ({
   hidden: {
-    x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,
-    y: direction === 'up' ? '100%' : direction === 'down' ? '100%' : 0,
+    x: direction === 'left' ? '-120%' : direction === 'right' ? '120%' : 0,
+    y: direction === 'up' ? '120%' : direction === 'down' ? '120%' : 0,
   },
   show: {
     x: 0,
@@ -157,5 +157,15 @@ export const footerVariants = {
       stiffness: 80,
       delay: 0.5,
     },
+  },
+};
+
+export const stampHoverVariant = {
+  scale: 1.2,
+  transition: {
+    type: 'tween',
+    stiffness: 100,
+    damping: 100,
+    duration: 1,
   },
 };

@@ -47,7 +47,6 @@ export const newFeatures = [
   },
 ];
 
-
 export const insights = [
   {
     imgUrl: '/insight-06.png',
@@ -87,3 +86,26 @@ export const socials = [
     url: '/facebook.svg',
   },
 ];
+
+export const stamps = [
+  {
+    href: 'https://sk.ru/',
+    src: '/stamp1.jpeg',
+    alt: 'Skolkovo stamp',
+  },
+  {
+    href: 'https://www.skoltech.ru/en',
+    src: '/stamp2.jpeg',
+    alt: 'Skolkovo Robocenter stamp',
+  },
+  {
+    href: 'https://sk.ru/foundation/clusters/biomed/',
+    src: '/stamp3.jpeg',
+    alt: 'Skolkovo Biomed stamp',
+  },
+  {
+    href: 'https://nuclearmedicine.sk.ru/',
+    src: '/stamp4.jpg',
+    alt: 'Skolkovo Nuclear stamp',
+  },
+]
