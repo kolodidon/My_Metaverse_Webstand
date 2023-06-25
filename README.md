@@ -1,4 +1,4 @@
-# My_Metaverse_Webstand
+# Readme
 
-A promotional page for Facebook's Metaverse technology. The project is currently under development. Its current state can be tracked here:
+A full description will be made later
 https://my-metaverse-webstand.vercel.app/
