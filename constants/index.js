@@ -46,3 +46,25 @@ export const newFeatures = [
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia adipisci quo est nulla',
   },
 ];
+
+
+export const insights = [
+  {
+    imgUrl: '/insight-06.png',
+    title: 'Consectetur reprehenderit numquam quia tempora alias',
+    subtitle:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis alias necessitatibus asperiores a quidem voluptatum perferendis beatae',
+  },
+  {
+    imgUrl: '/insight-07.png',
+    title: 'Suscipit cum aperiam molestias saepe voluptas libero!',
+    subtitle:
+      'Recusandae voluptate, perspiciatis enim? Eum, velit. Ratione assumenda sit eos, architecto praesentium consequuntur maiores doloremque',
+  },
+  {
+    imgUrl: '/insight-08.png',
+    title: 'Quia adipisci quo est nulla',
+    subtitle:
+      'Dolor possimus, commodi ipsum veritatis similique autem asperiores et ducimus harum molestiae. Eos enim numquam tempora expedita! Id?',
+  },
+];
