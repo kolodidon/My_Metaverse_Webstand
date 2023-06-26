@@ -41,7 +41,17 @@ const Hero = () => (
         />
 
         <div className="w-full flex flex-wrap justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10 sm:gap-10 gap-5" >
-          { stamps.map(({ href, src, alt }, idx) => <Stamp key={idx} idx={idx} href={href} src={src} alt={alt} />) }
+          
+          {stamps.map(({ href, bgColor, textColor, subTitle }, idx) =>
+            <Stamp
+              key={idx}
+              idx={idx}
+              href={href}
+              bgColor={bgColor}
+              textColor={textColor}
+              subTitle={subTitle}
+            />
+          )}
         </div>
 
       </motion.div>

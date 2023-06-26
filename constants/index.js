@@ -90,22 +90,26 @@ export const socials = [
 export const stamps = [
   {
     href: 'https://sk.ru/',
-    src: '/stamp1.jpeg',
-    alt: 'Skolkovo stamp',
+    bgColor: '#bedd15',
+    textColor: '#000',
+    subTitle: 'Skolkovo',
   },
   {
     href: 'https://www.skoltech.ru/en',
-    src: '/stamp2.jpeg',
-    alt: 'Skolkovo Robocenter stamp',
+    bgColor: '#3f5faa',
+    textColor: '#fff',
+    subTitle: 'Robotech',
   },
   {
     href: 'https://sk.ru/foundation/clusters/biomed/',
-    src: '/stamp3.jpeg',
-    alt: 'Skolkovo Biomed stamp',
+    bgColor: '#5ac9e5',
+    textColor: '#fff',
+    subTitle: 'Biomed',
   },
   {
     href: 'https://nuclearmedicine.sk.ru/',
-    src: '/stamp4.jpg',
-    alt: 'Skolkovo Nuclear stamp',
+    bgColor: '#ee1e40',
+    textColor: '#fff',
+    subTitle: 'Nuclear',
   },
 ]

@@ -4,18 +4,24 @@ import { motion } from 'framer-motion';
 
 import { stampHoverVariant, fadeIn } from '../utils/motion';
 
-const Stamp = ({ idx, href, src, alt }) => {
+const Stamp = ({ idx, href, bgColor, textColor, subTitle }) => {
     return (
-        <motion.a 
+        <motion.a
             href={href}
             whileHover={stampHoverVariant}
             variants={fadeIn('right', 'spring', idx * 0.75, 1)}
         >
-            <img
-                src={src}
-                alt={alt}
-                className="sm:w-[140px] w-[100px] sm:h-[100px] h-[70px] object-cover rounded-[20px] rounded-tr-[0px] blur-2"
-            />
+            <div 
+                style={{ backgroundColor: bgColor, color: textColor, }}
+                className={`p-[15px] w-40 h-28 flex flex-col rounded-3xl rounded-tr-none`}
+            >
+                <span className="text-5xl font-bold tracking-tighter leading-[1.2]">
+                    Sk
+                </span>
+                <span>
+                    {subTitle}
+                </span>
+            </div>
         </motion.a>
     )
 }
