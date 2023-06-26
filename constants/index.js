@@ -1,28 +1,33 @@
 export const exploreCards = [
   {
     id: 'exploreCard-1',
-    imgUrl: '/card-01.png',
-    title: 'Lorem 1',
+    imgUrl: '/card-01-2.jpg',
+    description: 'Learn about the latest advances in quantum computing',
+    title: 'Quantum computing',
   },
   {
     id: 'exploreCard-2',
-    imgUrl: '/card-02.png',
-    title: 'Lorem 2',
+    imgUrl: '/card-02-2.jpg',
+    description: 'Visit a meet-up with a demonstration of latest AR technologies',
+    title: 'Augmented reality',
   },
   {
     id: 'exploreCard-3',
-    imgUrl: '/card-03.png',
-    title: 'Lorem 3',
+    imgUrl: '/card-03-2.jpg',
+    description: 'Annual exhibition of cybernetics achievements',
+    title: 'Cybernetics',
   },
   {
     id: 'exploreCard-4',
-    imgUrl: '/card-04.png',
-    title: 'Lorem 4',
+    imgUrl: '/card-04-1.jpg',
+    description: 'A two-hour lecture by chip business director, Alexey Yurievich Novoselov',
+    title: 'Microchip manufacturing',
   },
   {
     id: 'exploreCard-5',
-    imgUrl: '/card-05.png',
-    title: 'Lorem 5',
+    imgUrl: '/card-05-1.jpg',
+    description: 'Master class on mainstream bigdata analysis techniques',
+    title: 'Big data analytics',
   },
 ];
 
